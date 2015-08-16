@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JQueryStellarUI</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="jquery.stellar.js"></script>
+  <script src="scrip.js"></script>
+  <script src="jquery.nicescroll.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#top">MotorWorld Group</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div style="padding-left:30%;">
+        <ul class="nav navbar-nav">
+          <li><a href="#sales">Motor Sales</a></li>
+          <li><a href="#logisitics">Logisitics</a></li>
+          <li><a href="#Finance">Finance</a></li>
+          <li><a href="#Warranty">Vehicle Warrantrys</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+        </ul>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <%= yield %>
+
+</body>
+</html>

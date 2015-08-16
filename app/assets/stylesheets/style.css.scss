@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    height: 350px;
+    width: 100%;
+    z-index: 0;
+    /*padding-bottom: 0%;*/
+    h1, h2, h3, h4 {
+        color: #0c586d;
+        font-weight: 600;
+        text-shadow: #D2DBF7 0em 0em 0.1em;
+        /*color: #464646;*/
+        font-family: 'Rock Salt', cursive;
+        margin: 30px 60px;
+        font-size: 85px;
+        position: static;
+    }
+}
+
+.jumbotron {
+
+}
+
+.content {
+    height: 750px;
+    width:100%;
+    z-index: 2;
+
+
+    h1::first-letter {
+        font-size: 100px;
+        font-weight: 600;
+        color:#FF5500;
+        /*color:#3cb0f8;*/
+    }
+
+}
+
+.content ul li {
+    padding-bottom: 2%;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.content h2 {
+    font-size: 25px;
+}
+
+h1, h2, h3, h4 {
+    color: #0a0909;
+    /*color: #464646;*/
+    text-shadow: #D2DBF7 0em 0em 0.1em;
+
+    font-family: 'Rock Salt', cursive;
+    margin: 30px 60px;
+
+}
+
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 20px 60px;
+}
+#banner {
+    background: url(banner.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 80%  ;
+    /*background-size: fit  ;*/
+}
+
+#bannersmall {
+    background: url('motor_logo.jpg') no-repeat;
+    background-attachment: local;
+    background-size: 65% 23% ;
+    background-position: center;
+    height: 0px;
+}
+
+
+.blur {
+    background:url('backgroundblur.jpg') no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+    width:100%;
+    height:1500px;
+}
+
+
+#content_1 {
+    text-align: center;
+}
+#content_2 {
+    text-align: center;
+}
+
+
