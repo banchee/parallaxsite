@@ -81,7 +81,7 @@
     margin: 20px 60px;
 }
 #banner {
-    background: url('banner.jpg') no-repeat;
+    background: url('../Images/banner.jpg') no-repeat;
     background-attachment: fixed;
     background-size: 100% 80%  ;
     padding-top: 3% ;
@@ -104,7 +104,7 @@
 }
 
 #bannersmall {
-    background: url('motor_logo.jpg') no-repeat;
+    background: url('../Images/motor_logo.jpg') no-repeat;
     background-attachment: local;
     background-size: 65% 23% ;
     background-position: center;
@@ -121,14 +121,14 @@
 
 #content_1 {
     text-align: center;
-    background:url('backgroundblur.jpg') no-repeat;
+    background:url('../Images/backgroundblur.jpg') no-repeat;
     background-size:100% 100% ;
     background-attachment: fixed;
 
 }
 #content_2 {
     text-align: center;
-    background:url('scania.jpg') no-repeat;
+    background:url('../Images/scania.jpg') no-repeat;
     background-size:100% 100% ;
     background-attachment: fixed;
 
