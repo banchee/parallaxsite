@@ -21,8 +21,8 @@ group :production do
 end
 
 group :development, :test do
-  # gem 'sqlite3', '1.3.10'
-  gem "pg"
+  gem 'sqlite3', '1.3.10'
+  # gem "pg"
 end
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
