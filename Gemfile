@@ -17,13 +17,13 @@ gem 'devise', ">=2.2"
 gem 'stripe'
 
 group :production do
-
+	 gem "pg"
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.3.10'
+  # gem 'sqlite3', '1.3.10'
+  gem "pg"
 end
-
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
